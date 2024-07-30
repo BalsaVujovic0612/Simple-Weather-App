@@ -1,0 +1,52 @@
+body {
+    background-color: #fff9c4; /* Svijetložuta */
+    color: #5d4037; /* Tamnosmeđa za tekst */
+}
+
+
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    height: 50vh;
+}
+
+input{
+    text-align: left;
+    background-color: lightgray;
+    width: 200px;
+    height: 23px;
+    border: darkgray solid 3px;
+    color: black;
+}
+
+h1{
+    color: darkblue;
+}
+
+h3{
+    
+    font-size: 25px;
+    color: darkgreen;
+}
+
+#result{
+    color: darkred;
+}
+
+#humidity{
+    color: navy;
+}
+
+button{
+    border-radius: 3px;
+    border: darkgray solid 3px;
+    height: 30px;
+    background-color: lightblue;
+    color: black;
+    
+}
